@@ -15,8 +15,8 @@ function setup() {
 
 	menu = new Menu();
 	
-	menu.add( new Button(new Vector(150, 200), new Vector(canvas.width - 300, 80), 'Light mode', ()=>showLightBackground = true) )
-	    .add( new Button(new Vector(150, 400), new Vector(canvas.width - 300, 80), 'Dark mode', ()=>showLightBackground = false) );
+	menu.add( new Button(new Vector(150, 162), new Vector(canvas.width - 300, 80), 'Light mode', ()=>showLightBackground = true) )
+	    .add( new Button(new Vector(150, 362), new Vector(canvas.width - 300, 80), 'Dark mode', ()=>showLightBackground = false) );
 }
 
 function loop() {
