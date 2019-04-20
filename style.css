@@ -6,3 +6,13 @@ body {
 	justify-content: space-around;
 	align-items: center;
 }
+
+#keyboard {
+	display: flex;
+
+}
+
+#keyboardArrowsDiv {
+	display: flex;
+	flex-direction: column;
+}
