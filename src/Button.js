@@ -37,7 +37,7 @@ class Button {
 		noStroke();
 
 		if(showLightBackground)
-			fill(new Color(0));
+			fill(new Color(50));
 		else
 			fill(new Color(255));
 
